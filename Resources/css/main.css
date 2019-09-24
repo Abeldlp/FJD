@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.nav img {
+  height: 150px;
+  position: relative;
+  left: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  list-style: none;
+}
+
+.nav-buttons li {
+  border-left: 1px solid black;
+}
+#last {
+  border-right: 1px solid black;
+}
+
+.nav-buttons li a {
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+  margin: 0px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Banner Image*/
+
+.banner-img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.banner-img img {
+  position: relative;
+  width: 100%;
+  bottom: 280px;
+}
+.banner-text1 {
+  color: whitesmoke;
+  position: relative;
+  z-index: 1;
+  padding-left: 10px;
+  bottom: 250px;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+.banner-text2 {
+  color: whitesmoke;
+  position: relative;
+  z-index: 1;
+  bottom: 250px;
+  padding-left: 10px;
+  font-size: 40px;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+
+/*Banner main CONTENT*/
+
+.main-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+figure {
+  text-align: center;
+  color: lightgray;
+  padding: 0px 10px;
+}
+.title {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.main-text {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  max-width: 250px;
+}
+.design-box {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  bottom: 450px;
+  z-index: -15;
+  height: 600px;
+}
+.design {
+  width: 1400px;
+  height: 500px;
+  background-color: rgb(19, 19, 19);
+  position: relative;
+  right: 15px;
+  transform: rotate(5deg);
+}
+
+/*EXPLANATIONS */
+.explanation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 520px;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+.ex-div-container {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  top: 28px;
+  right: 20px;
+  overflow: hidden;
+  transform: rotate(5deg);
+}
+.try {
+  height: 100%;
+  position: relative;
+  right: 30px;
+  bottom: 40px;
+  transform: rotate(-5deg);
+}
+.explanation-text {
+  padding-top: 100px;
+  padding-right: 20px;
+}
+
+.explanation-text1 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  text-align: right;
+  padding: 10px 40px;
+}
+.explanation-text2 {
+  font-size: 35px;
+  font-family: "Montserrat Subrayada", sans-serif;
+  padding: 28px 10px;
+}
+.explanation-text3 {
+  font-size: 45px;
+  text-align: left;
+  font-family: "Montserrat Subrayada", sans-serif;
+  padding: 10px 45px;
+}
