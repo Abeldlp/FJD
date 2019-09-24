@@ -45,6 +45,13 @@ body {
   color: black;
   margin: 0px 10px;
   font-family: "Montserrat", sans-serif;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-buttons li a:hover {
+  background-color: rgb(19, 19, 19);
+  color: whitesmoke;
 }
 
 /*Banner Image*/
@@ -168,4 +175,75 @@ figure {
   text-align: left;
   font-family: "Montserrat Subrayada", sans-serif;
   padding: 10px 45px;
+}
+
+/*SEPARATOR */
+
+.separator {
+  position: relative;
+  bottom: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.box1 {
+  height: 100%;
+  width: 73%;
+  background-color: rgb(19, 19, 19);
+  margin-bottom: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.box1-text {
+  color: whitesmoke;
+  font-family: "Montserrat Subrayada", sans-serif;
+  padding-left: 80px;
+}
+
+.box2 {
+  height: 100%;
+  width: 20%;
+  background-color: rgb(19, 19, 19);
+  margin-bottom: 500px;
+}
+
+/*FOOTER */
+
+footer {
+  width: 100%;
+  background-color: rgb(19, 19, 19);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-box {
+  position: relative;
+  bottom: 400px;
+  width: 33%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-box h2 {
+  padding: 20px;
+  text-align: center;
+}
+.footer-box p {
+  padding: 15px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.info {
+  margin-top: 15px;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+  bottom: 30px;
+  color: whitesmoke;
 }
