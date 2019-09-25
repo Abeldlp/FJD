@@ -5,12 +5,15 @@
 }
 
 body {
+  height: 100%;
   width: 100;
   max-width: 1300px;
   margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
   background-color: whitesmoke;
   overflow: hidden;
   overflow-y: scroll;
+  font-weight: 400;
 }
 
 .nav {
@@ -52,4 +55,63 @@ body {
 .nav-buttons li a:hover {
   background-color: rgb(19, 19, 19);
   color: whitesmoke;
+}
+/*First content*/
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+fixed = parallax effect
+scroll = normal
+*/
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("/Resources/media/sevilla-desde-arriba.jpg");
+  min-height: 70vh;
+}
+
+.pimg2 {
+  background-image: url("/Resources/media/calle-bares.jpg");
+  min-height: 70vh;
+}
+
+.pimg3 {
+  background-image: url("/Resources/media/casa-rustica.jpg");
+  min-height: 70vh;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+  min-height: 20vh;
+  background-color: rgb(19, 19, 19);
+  color: whitesmoke;
+}
+.section h2 {
+  padding-bottom: 20px;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.ptext .border {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 13px;
+  font-family: "Montserrat Subrayada", sans-serif;
 }
