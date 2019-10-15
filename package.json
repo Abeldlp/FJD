@@ -1,0 +1,25 @@
+{
+  "name": "construction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sq.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abeldlp/FJD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abeldlp/FJD/issues"
+  },
+  "homepage": "https://github.com/Abeldlp/FJD#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.1.0"
+  }
+}
