@@ -2,15 +2,17 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
+const path = require("path");
 
 //MIDDLEWARE SETTINGS
 
 app.use(morgan("dev"));
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, "public")));
 
 //ROUTES
 app.get("/", (req, res) => {
-  res.sendfile("index.html");
+  res.sendfile("/index.html");
 });
 
 app.get("/index.html", (req, res) => {
